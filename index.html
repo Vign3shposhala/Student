@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Student's Helper</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <div class="logo">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Student's Helper</span>
+        </div>
+        <div class="nav-links">
+            <a href="#learning-platforms" class="nav-link">Learning Platforms</a>
+            <a href="#coding-practice" class="nav-link">Coding Practice</a>
+            <a href="#youtube-channels" class="nav-link">YouTube Channels</a>
+            <a href="#learning-strategies" class="nav-link">Learning Strategies</a>
+            <a href="#tools-resources" class="nav-link">Tools & Resources</a>
+        </div>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-menu">
+        <a href="#learning-platforms" class="mobile-link">Learning Platforms</a>
+        <a href="#coding-practice" class="mobile-link">Coding Practice</a>
+        <a href="#youtube-channels" class="mobile-link">YouTube Channels</a>
+        <a href="#learning-strategies" class="mobile-link">Learning Strategies</a>
+        <a href="#tools-resources" class="mobile-link">Tools & Resources</a>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero animate__animated animate__fadeIn">
+        <div class="hero-content">
+            <h1>Your Ultimate Learning Resource Hub</h1>
+            <p>Discover the best free resources to accelerate your learning journey</p>
+            <button class="cta-button">Get Started <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="hero-image">
+            <img src="https://cdn.pixabay.com/photo/2018/01/17/07/06/laptop-3087585_1280.jpg" alt="Learning Resources">
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Learning Platforms -->
+        <div class="section animate__animated animate__fadeInUp" id="learning-platforms" data-category="learning">
+            <div class="section-header">
+                <i class="fas fa-rocket section-icon"></i>
+                <h2>Best Free Learning Platforms</h2>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/19/00/53/online-3412473_1280.jpg" alt="Khan Academy">
+                    <h3>Khan Academy</h3>
+                    <p>Free courses on math, science, and more with interactive exercises.</p>
+                    <a href="https://www.khanacademy.org/" target="_blank" class="card-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg" alt="W3Schools">
+                    <h3>W3Schools</h3>
+                    <p>Learn web development with tutorials and interactive examples.</p>
+                    <a href="https://www.w3schools.com/" target="_blank" class="card-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg" alt="CS50">
+                    <h3>CS50 by Harvard</h3>
+                    <p>Introduction to computer science and programming.</p>
+                    <a href="https://cs50.harvard.edu/" target="_blank" class="card-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2018/03/27/12/16/analytics-3265840_1280.jpg" alt="Roadmap.sh">
+                    <h3>Roadmap.sh</h3>
+                    <p>Step-by-step guides for becoming a developer in various fields.</p>
+                    <a href="https://roadmap.sh/" target="_blank" class="card-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <button class="view-more-btn">View More <i class="fas fa-chevron-down"></i></button>
+        </div>
+
+        <!-- Coding Practice -->
+        <div class="section animate__animated animate__fadeInUp" id="coding-practice" data-category="coding">
+            <div class="section-header">
+                <i class="fas fa-laptop-code section-icon"></i>
+                <h2>Coding Practice</h2>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png" alt="LeetCode">
+                    <h3>LeetCode</h3>
+                    <p>Practice coding problems for technical interviews and competitions.</p>
+                    <a href="https://leetcode.com/" target="_blank" class="card-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/22/52/coding-1841550_1280.jpg" alt="CodeWars">
+                    <h3>CodeWars</h3>
+                    <p>Solve coding challenges and improve your skills through practice.</p>
+                    <a href="https://www.codewars.com/" target="_blank" class="card-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg" alt="HackerRank">
+                    <h3>HackerRank</h3>
+                    <p>Practice coding, algorithms, and prepare for technical interviews.</p>
+                    <a href="https://www.hackerrank.com/" target="_blank" class="card-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg" alt="Exercism">
+                    <h3>Exercism</h3>
+                    <p>Practice coding in multiple languages with mentorship.</p>
+                    <a href="https://exercism.io/" target="_blank" class="card-link">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <button class="view-more-btn">View More <i class="fas fa-chevron-down"></i></button>
+        </div>
+
+        <!-- YouTube Channels -->
+        <div class="section animate__animated animate__fadeInUp" id="youtube-channels" data-category="youtube">
+            <div class="section-header">
+                <i class="fab fa-youtube section-icon"></i>
+                <h2>Best YouTube Channels</h2>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg" alt="FreeCodeCamp">
+                    <h3>FreeCodeCamp</h3>
+                    <p>Free coding tutorials and projects for beginners to advanced.</p>
+                    <a href="https://www.youtube.com/c/Freecodecamp" target="_blank" class="card-link">Visit Channel <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2018/03/27/12/16/analytics-3265840_1280.jpg" alt="Traversy Media">
+                    <h3>Traversy Media</h3>
+                    <p>Web development tutorials covering various technologies.</p>
+                    <a href="https://www.youtube.com/c/TraversyMedia" target="_blank" class="card-link">Visit Channel <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg" alt="Fireship">
+                    <h3>Fireship</h3>
+                    <p>Short, high-quality tech tutorials and explanations.</p>
+                    <a href="https://www.youtube.com/c/Fireship" target="_blank" class="card-link">Visit Channel <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg" alt="The Coding Train">
+                    <h3>The Coding Train</h3>
+                    <p>Creative coding tutorials and algorithm visualizations.</p>
+                    <a href="https://www.youtube.com/c/TheCodingTrain" target="_blank" class="card-link">Visit Channel <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <button class="view-more-btn">View More <i class="fas fa-chevron-down"></i></button>
+        </div>
+
+        <!-- Learning Strategies -->
+        <div class="section animate__animated animate__fadeInUp" id="learning-strategies" data-category="strategies">
+            <div class="section-header">
+                <i class="fas fa-brain section-icon"></i>
+                <h2>Learning Strategies</h2>
+            </div>
+            <div class="strategy-container">
+                <div class="strategy-card">
+                    <div class="strategy-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Active Recall</h3>
+                    <p>Test yourself frequently to reinforce learning and improve retention.</p>
+                    <div class="strategy-tips">
+                        <h4>Tips:</h4>
+                        <ul>
+                            <li>Create practice questions</li>
+                            <li>Use flashcards</li>
+                            <li>Explain concepts without notes</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="strategy-card">
+                    <div class="strategy-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Spaced Repetition</h3>
+                    <p>Review material at increasing intervals to optimize long-term retention.</p>
+                    <div class="strategy-tips">
+                        <h4>Tips:</h4>
+                        <ul>
+                            <li>Use apps like Anki</li>
+                            <li>Schedule reviews</li>
+                            <li>Increase intervals between reviews</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="strategy-card">
+                    <div class="strategy-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Project-Based Learning</h3>
+                    <p>Build projects to apply your knowledge and develop practical skills.</p>
+                    <div class="strategy-tips">
+                        <h4>Tips:</h4>
+                        <ul>
+                            <li>Start with small projects</li>
+                            <li>Solve real problems</li>
+                            <li>Document your process</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="strategy-card">
+                    <div class="strategy-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Teach Others</h3>
+                    <p>Explain concepts to others to solidify your understanding and identify gaps.</p>
+                    <div class="strategy-tips">
+                        <h4>Tips:</h4>
+                        <ul>
+                            <li>Start a study group</li>
+                            <li>Create tutorials</li>
+                            <li>Answer questions online</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tools & Resources -->
+        <div class="section animate__animated animate__fadeInUp" id="tools-resources" data-category="tools">
+            <div class="section-header">
+                <i class="fas fa-tools section-icon"></i>
+                <h2>Tools & Resources</h2>
+            </div>
+            <div class="tools-container">
+                <div class="tool-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>Version control and collaboration platform for developers.</p>
+                    <a href="https://github.com/" target="_blank" class="tool-link">Learn More</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fab fa-stack-overflow"></i>
+                    <h3>Stack Overflow</h3>
+                    <p>Q&A community for programming and technical questions.</p>
+                    <a href="https://stackoverflow.com/" target="_blank" class="tool-link">Learn More</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-sticky-note"></i>
+                    <h3>Notion</h3>
+                    <p>All-in-one workspace for notes, tasks, and knowledge management.</p>
+                    <a href="https://www.notion.so/" target="_blank" class="tool-link">Learn More</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-spell-check"></i>
+                    <h3>Grammarly</h3>
+                    <p>Writing assistant that helps improve grammar and clarity.</p>
+                    <a href="https://www.grammarly.com/" target="_blank" class="tool-link">Learn More</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Overleaf</h3>
+                    <p>Collaborative LaTeX editor for academic papers and documents.</p>
+                    <a href="https://www.overleaf.com/" target="_blank" class="tool-link">Learn More</a>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Anki</h3>
+                    <p>Flashcard app that uses spaced repetition for efficient learning.</p>
+                    <a href="https://www.ankiweb.net/" target="_blank" class="tool-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2>Stay Updated with Learning Resources</h2>
+            <p>Subscribe to our newsletter to receive the latest updates on learning resources and tips.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Student's Helper</h3>
+                <p>Your ultimate resource for learning and development.</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#learning-platforms">Learning Platforms</a></li>
+                    <li><a href="#coding-practice">Coding Practice</a></li>
+                    <li><a href="#youtube-channels">YouTube Channels</a></li>
+                    <li><a href="#learning-strategies">Learning Strategies</a></li>
+                    <li><a href="#tools-resources">Tools & Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> contact@studentshelper.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Education St, Learning City</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Student's Helper. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
